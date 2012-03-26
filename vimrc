@@ -3,6 +3,7 @@ call pathogen#helptags()
 
 au BufRead,BufNewFile *.j set filetype=objj
 
+filetype plugin indent on
 set nocompatible
 behave xterm
 set fileformat=unix
