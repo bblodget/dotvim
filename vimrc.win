@@ -14,5 +14,5 @@ set visualbell
 syntax on
 map <F2> : NERDTreeToggle<CR>
 map ,a :A<CR>
-source $HOME/.exrc
+source $HOME/_exrc
 

@@ -1,11 +1,12 @@
-Installation:
+Unix Installation:
 
-	git clone https://github.com/bblodget/dotvim.git ~/.vim
-
-Create symlinks:
-
+	git clone git@github.com:bblodget/dotvim.git ~/.vim
 	ln -s ~/.vim/exrc ~/.exrc
-
 	ln -s ~/.vim/vimrc.unix ~/.vimrc	(for unix eol)
-	ln -s ~/.vim/vimrc.win ~/.vimrc		(for win eol)
+
+Windows Installation: (MINGW32 bash shell)
+
+	git clone git@github.com:bblodget/dotvim.git ~/vimfiles
+	ln -s ~/.vim/exrc ~/_exrc
+	ln -s ~/.vim/vimrc.win ~/_vimrc		(for win eol)
 
