@@ -6,6 +6,7 @@ au BufRead,BufNewFile *.j set filetype=objj
 filetype plugin indent on
 set nocompatible
 behave xterm
+colorscheme desert
 set fileformat=unix
 set nobackup
 set hlsearch

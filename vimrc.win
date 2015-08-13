@@ -6,6 +6,7 @@ au BufRead,BufNewFile *.j set filetype=objj
 filetype plugin indent on
 set nocompatible
 behave xterm
+colorscheme desert
 set fileformat=dos
 set fileformats=dos,unix
 set nobackup
