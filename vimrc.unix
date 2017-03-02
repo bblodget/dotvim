@@ -16,5 +16,11 @@ map <F2> : NERDTreeToggle<CR>
 map ,a :A<CR>
 set listchars=tab:\|\-,trail:-
 set list
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 source $HOME/.exrc
 
